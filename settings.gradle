@@ -1,0 +1,2 @@
+rootProject.name='StockMarketAfterHourParser'
+include ':app'

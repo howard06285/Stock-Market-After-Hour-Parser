@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintWidth_default="wrap">
+
+        <TextView
+            android:id="@+id/shareIdTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/shareNameTv"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:text="證券代號" />
+
+        <TextView
+            android:id="@+id/shareNameTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/shareQtyTv"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintStart_toEndOf="@+id/shareIdTv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:text="證券名稱" />
+
+        <TextView
+            android:id="@+id/shareQtyTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/shareStartPriceTv"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintStart_toEndOf="@+id/shareNameTv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="viewEnd"
+            android:textSize="12sp"
+            android:text="成交股數" />
+
+        <TextView
+            android:id="@+id/shareStartPriceTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/shareEndPriceTv"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintStart_toEndOf="@+id/shareQtyTv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="viewEnd"
+            android:textSize="12sp"
+            android:text="開盤價" />
+
+        <!--    <TextView
+            android:id="@+id/shareHighestPriceTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/shareStartPriceTv"
+            android:text="最高價"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintHorizontal_weight="1" />-->
+        <!--
+        <TextView
+            android:id="@+id/shareLowestPriceTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/shareHighestPriceTv"
+            android:text="最低價"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintHorizontal_weight="1" />-->
+
+        <TextView
+            android:id="@+id/shareEndPriceTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintStart_toEndOf="@+id/shareStartPriceTv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="viewEnd"
+            android:textSize="12sp"
+            android:text="收盤價" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
