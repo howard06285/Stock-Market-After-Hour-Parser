@@ -34,7 +34,7 @@ class PageViewModel(app: Application) : AndroidViewModel(app) {
              * user scrolling on a large device is expected to scroll through items more quickly
              * than a small device, such as when the large device uses a grid layout of items.
              */
-            pageSize = 15,
+            pageSize = 30,
 
             /**
              * If placeholders are enabled, PagedList will report the full size but some items might
@@ -51,7 +51,7 @@ class PageViewModel(app: Application) : AndroidViewModel(app) {
              * <p>
              * This number triggers the PagedList to start dropping distant pages as more are loaded.
              */
-            maxSize = 60
+            maxSize = 100
         )
     )
 
