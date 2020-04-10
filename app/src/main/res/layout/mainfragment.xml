@@ -5,19 +5,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
+    tools:context=".MainFragment" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header_control_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <Switch
+            android:id="@+id/communicationModeSw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/communicationModeTv"/>
+
+        <TextView
+            android:id="@+id/communicationModeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp"
+            android:maxLines="2"
+            android:text="@string/header_communication_mode_1"
+            android:textSize="12sp"
+            android:textColor="@color/colorAccentDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/communicationModeSw"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/headerBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/button_first"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/header_control_panel"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="4dp"
-        android:layout_marginEnd="8dp">
+        android:layout_marginEnd="8dp" >
 
         <TextView
             android:id="@+id/shareIdTv"
@@ -87,18 +122,6 @@
             android:text="@string/title_share_end_price" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!--Spare button-->
-    <Button
-        android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/headerBar"
-        app:layout_constraintTop_toTopOf="parent"
-        android:visibility="gone"/>
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/StockInfoList_Rv"
         android:layout_width="match_parent"
@@ -110,4 +133,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/headerBar" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_cloud_download_white_24dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

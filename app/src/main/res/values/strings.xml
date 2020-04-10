@@ -21,4 +21,11 @@
 
 
 
+    <string name="header_communication_mode_1">下一次的資料取得，將以 Retrofit2 + RxJava 網路通信</string>
+    <string name="header_communication_mode_2">下一次的資料取得，將以 HttpUrlConnection 網路通信</string>
+    <string name="header_communication_mode_1_is_loading">Retrofit + RxJava: data is loading..</string>
+    <string name="header_communication_mode_2_is_loading">HttpURLConnection: data is loading..</string>
+    <string name="header_communication_connection_error">Oops!請檢查網路連線..</string>
+
+
 </resources>

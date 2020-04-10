@@ -55,28 +55,28 @@ dependencies {
     /**/
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5'
     implementation 'com.google.code.gson:gson:2.8.6'
-
     // Kotlin components
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.coroutines"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutines"
-
     // Room components
     implementation "androidx.room:room-runtime:$rootProject.roomVersion"
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
     androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
-
-    //paging
-    def paging_version = "2.1.2"
-    implementation "androidx.paging:paging-runtime-ktx:$paging_version"
-    testImplementation "androidx.paging:paging-common-ktx:$paging_version"
-
-    // optional - RxJava support
-    implementation "androidx.paging:paging-rxjava2:$paging_version"
+    // Android paging library
+    implementation "androidx.paging:paging-runtime-ktx:$rootProject.paging_version"
+    testImplementation "androidx.paging:paging-common-ktx:$rootProject.paging_version"
     // Lifecycle components
     implementation "androidx.lifecycle:lifecycle-extensions:$rootProject.archLifecycleVersion"
-    //noinspection LifecycleAnnotationProcessorWithJava8
+    // noinspection LifecycleAnnotationProcessorWithJava8
     kapt "androidx.lifecycle:lifecycle-compiler:$rootProject.archLifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.archLifecycleVersion"
+    // Retrofit 2
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    // Retrofit - 搭配 Gson 數據解析功能依賴項
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+    // Okhttp 函式庫 - Retrofit 基於 OkHttp 的擴展，故必須加上 OkHttp 函式庫的依賴項
+    implementation 'com.squareup.okhttp3:okhttp:4.0.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
 
 }

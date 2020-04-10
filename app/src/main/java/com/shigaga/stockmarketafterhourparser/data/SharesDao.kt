@@ -4,7 +4,7 @@ import androidx.paging.DataSource
 import androidx.room.*
 
 /**
- * Database Access Object for the Cheese database.
+ * Database Access Object for the Shares database.
  */
 @Dao
 interface SharesDao {
@@ -12,7 +12,7 @@ interface SharesDao {
      * Room knows how to return a LivePagedListProvider, from which we can get a LiveData and serve
      * it back to UI via ViewModel.
      */
-    @Query("SELECT * FROM Shares ORDER BY id")    //COLLATE NOCASE ASC
+    @Query("SELECT * FROM Shares ORDER BY id")
     fun allSharesById(): DataSource.Factory<Int, Shares>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
