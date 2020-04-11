@@ -11,8 +11,8 @@ android {
         applicationId "com.shigaga.stockmarketafterhourparser"
         minSdkVersion 22
         targetSdkVersion 29
-        versionCode 2
-        versionName "1.0.0-beta-02"
+        versionCode 3
+        versionName "1.0.0-beta-03"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -76,6 +76,4 @@ dependencies {
     // Okhttp 函式庫 - Retrofit 基於 OkHttp 的擴展，故必須加上 OkHttp 函式庫的依賴項
     implementation 'com.squareup.okhttp3:okhttp:4.0.1'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-    // ReactiveStreams support for LiveData
-    implementation "android.arch.lifecycle:reactivestreams:1.1.1"
 }
