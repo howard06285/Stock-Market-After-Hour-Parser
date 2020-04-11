@@ -26,8 +26,9 @@ import java.net.HttpURLConnection
 import java.net.URL
 import kotlin.concurrent.thread
 
+
 class PageViewModel(app: Application) : AndroidViewModel(app) {
-    val dao = ShareDb.get(app).shareDao()
+    private val dao = ShareDb.get(app).shareDao()
 
     /**
      * We use -ktx Kotlin extension functions here, otherwise you would use LivePagedListBuilder(),

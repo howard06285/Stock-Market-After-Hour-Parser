@@ -14,14 +14,16 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.mainfragment.*
 
+
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
 class MainFragment : Fragment(), NetworkStatusCallBack.NetworkCallback {
+
     private lateinit var pageViewModel: PageViewModel
     private val ca : NetworkStatusCallBack = NetworkStatusCallBack(this)
-
     private var isConnected : Boolean = false
+
 
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?,
@@ -51,7 +53,6 @@ class MainFragment : Fragment(), NetworkStatusCallBack.NetworkCallback {
         fab.setOnClickListener {
             Snackbar.make(it, getString(R.string.snack_bar_confirmation_text), Snackbar.LENGTH_LONG)
                 .setAction(getString(R.string.snack_bar_confirm_text)) {
-
                     retrieveDataFromTwse()
 
                 }.show()
@@ -61,6 +62,7 @@ class MainFragment : Fragment(), NetworkStatusCallBack.NetworkCallback {
 
         // Create adapter for the RecyclerView
         val adapter = DataAdapter()
+
         StockInfoList_Rv.adapter = adapter
 
         pageViewModel.allShares.observe(viewLifecycleOwner, Observer(adapter::submitList))
@@ -73,20 +75,25 @@ class MainFragment : Fragment(), NetworkStatusCallBack.NetworkCallback {
 
             if (!communicationModeSw.isChecked) {
                 pageViewModel.retrieveDataFromTwseRetrofit()
-                Toast.makeText(context, getString(R.string.header_communication_mode_1_is_loading), Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, getString(R.string.header_communication_mode_1_is_loading), Toast.LENGTH_SHORT)
+                    .show()
 
             }else {
                 pageViewModel.retrieveDataFromTwseHttpUrlConnection()
-                Toast.makeText(context, getString(R.string.header_communication_mode_2_is_loading), Toast.LENGTH_SHORT).show()
-
+                Toast.makeText(context, getString(R.string.header_communication_mode_2_is_loading), Toast.LENGTH_SHORT)
+                    .show()
             }
 
         }else
-            Toast.makeText(context, getString(R.string.header_communication_connection_error), Toast.LENGTH_SHORT).show()
-
+            Snackbar.make(view!!, getString(R.string.header_communication_connection_error), Snackbar.LENGTH_LONG)
+                .show()
     }
 
     override fun onConnectionStatusChanged(isConnected: Boolean) {
         this.isConnected = isConnected
+
+        if (!isConnected)
+            Toast.makeText(context, getString(R.string.communication_connection_onLost), Toast.LENGTH_SHORT)
+                .show()
     }
 }

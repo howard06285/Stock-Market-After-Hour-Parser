@@ -26,4 +26,5 @@ interface SharesDao {
 
     @Query("DELETE FROM Shares")
     fun deleteAllShareData()
+
 }

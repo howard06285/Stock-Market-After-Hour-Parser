@@ -26,6 +26,6 @@
     <string name="header_communication_mode_1_is_loading">Retrofit + RxJava: data is loading..</string>
     <string name="header_communication_mode_2_is_loading">HttpURLConnection: data is loading..</string>
     <string name="header_communication_connection_error">Oops!請檢查網路連線..</string>
-
+    <string name="communication_connection_onLost">網路連線異常..</string>
 
 </resources>
