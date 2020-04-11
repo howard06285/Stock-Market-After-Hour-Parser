@@ -76,7 +76,7 @@ class MainFragment : Fragment(), NetworkStatusCallBack.NetworkCallback {
             if (!communicationModeSw.isChecked) {
                 pageViewModel.retrieveDataFromTwseRetrofit()
                 Toast.makeText(context, getString(R.string.header_communication_mode_1_is_loading), Toast.LENGTH_SHORT)
-                    .show()
+                .show()
 
             }else {
                 pageViewModel.retrieveDataFromTwseHttpUrlConnection()

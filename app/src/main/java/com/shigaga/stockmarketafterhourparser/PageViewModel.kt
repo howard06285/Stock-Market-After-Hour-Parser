@@ -3,6 +3,7 @@ package com.shigaga.stockmarketafterhourparser
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
 import androidx.paging.Config
 import androidx.paging.toLiveData
 import com.google.gson.Gson
@@ -12,7 +13,6 @@ import com.shigaga.stockmarketafterhourparser.communication.GetRequest_Interface
 import com.shigaga.stockmarketafterhourparser.data.ShareDb
 import com.shigaga.stockmarketafterhourparser.data.Shares
 import com.shigaga.stockmarketafterhourparser.data.ioThread
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
@@ -92,7 +92,7 @@ class PageViewModel(app: Application) : AndroidViewModel(app) {
 
     fun retrieveDataFromTwseRetrofit(){
 
-        GlobalScope.launch {
+        viewModelScope.launch {
             val retrofit: Retrofit = Retrofit.Builder()
                 .baseUrl("https://quality.data.gov.tw/")                 // 設定網絡請求的URL網址
                 .addConverterFactory(GsonConverterFactory.create())             // 設定數據解析器
