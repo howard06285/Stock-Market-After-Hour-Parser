@@ -27,7 +27,7 @@ A simple practice for stock market after-hours data retrieving from TWSE  - Andr
 | [LiveData*](https://www.youtube.com/watch?v=OMcDk2_4LSk)| LifeCycle aware data type |
 | [MVVM Design Pattern*](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel design pattern |
 
-__* Android Architecture Components - Part of Android Jetpack__
+___* Android Architecture Components - Part of Android Jetpack___
 
 <br>
 <br>
