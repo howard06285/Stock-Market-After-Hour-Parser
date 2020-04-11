@@ -24,10 +24,11 @@ A simple practice for stock market after-hours data retrieving from TWSE  - Andr
 | [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection) | Another data retrieving network communication |
 | [Gson](https://github.com/google/gson) | A Java serialization/deserialization library to parse respond JSON data |
 | [Android Paging Library*](https://www.youtube.com/watch?v=QVMqCRs0BNA) | For large amount of data pagination |
-| [Room Persistence Library](https://www.youtube.com/watch?v=SKWh4ckvFPM) | Database for data persistence |
-| [ViewModel](https://www.youtube.com/watch?v=5qlIPTDE274&t=37s) | LifeCycle aware data type |
-| [LiveData](https://www.youtube.com/watch?v=OMcDk2_4LSk)| LifeCycle aware data type |
-| [MVVM Design Pattern](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel design pattern |
+| [Room Persistence Library*](https://www.youtube.com/watch?v=SKWh4ckvFPM) | Database for data persistence |
+| [ViewModel*](https://www.youtube.com/watch?v=5qlIPTDE274&t=37s) | LifeCycle aware data type |
+| [LiveData*](https://www.youtube.com/watch?v=OMcDk2_4LSk)| LifeCycle aware data type |
+| [MVVM Design Pattern*](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel design pattern |
+
 _*Android Architecture Components - Part of Android Jetpack_
 
 <br>
