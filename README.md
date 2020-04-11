@@ -2,15 +2,11 @@
 [<img align="center" src ="app/src/main/res/mipmap-xxxhdpi/ic_app_icon.png">](https://play.google.com/store/apps/details?id=com.shigaga.makitonoto)<br>
 
 <br>
-
 [<img src="app/src/main/res/mipmap-xxxhdpi/googleplay_logo.png" width="20%" height="20%" align="center" valign="center">](https://play.google.com/store/apps/details?id=com.shigaga.makitonoto)
 
 <br>
 <br>
-<br>
-
 A simple practice for stock market after-hours data retrieving from TWSE  - Android Kotlin
-
 <br>
 
 ## This sample showcases the following things:
@@ -32,7 +28,7 @@ ___* Android Architecture Components - Part of Android Jetpack___
 <br>
 <br>
 <br>
-<img src="app/src/main/res/mipmap-xxxhdpi/AfterHoursDemo.gif" width="40%" height="40%" align="center" valign="center">
+<img src="app/src/main/res/mipmap-xxxhdpi/AfterHoursDemo.gif" width="45%" height="45%" align="center" valign="center">
 <br>
 <br>
 And the stock market after-hours datasource is here --> https://data.gov.tw/dataset/11549#r0 
