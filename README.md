@@ -18,8 +18,8 @@ A simple practice for stock market after-hours data retrieving from TWSE  - Andr
 | Implementation | Description |
 | --- | --- |
 | [Coroutines](https://www.youtube.com/watch?v=BOHK_w09pVA) | High-performance, light-weight multi-threading in Kotlin |
-| [Retrofit 2 + RxJava2](https://square.github.io/retrofit/) | A type-safe HTTP client for Android, data retrieving network communication |
-| [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection) | Another data retrieving network communication |
+| [Retrofit 2 + RxJava2](https://square.github.io/retrofit/) | A type-safe HTTP client for Android, network communication for data retrieving |
+| [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection) | Another network communication for data retrieving |
 | [Gson](https://github.com/google/gson) | A Java serialization/deserialization library to parse respond JSON data |
 | [Android Paging Library*](https://www.youtube.com/watch?v=QVMqCRs0BNA) | For large amount of data pagination |
 | [Room Persistence Library*](https://www.youtube.com/watch?v=SKWh4ckvFPM) | Database for data persistence |
