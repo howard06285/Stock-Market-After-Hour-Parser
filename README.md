@@ -12,22 +12,22 @@ A simple practice for stock market after-hours data retrieving from TWSE  - Andr
 
 ## This sample showcases the following things:
 
-- **Coroutines in Kotlin**   
+1. **Coroutines in Kotlin**   
     - High-performance, light-weight multi-threading in Kotlin
     
-- **Retrofit 2 + RxJava2**   
+2. **Retrofit 2 + RxJava2**   
     - Data retrieving network communication
-- **HttpURLConnection**   
+3. **HttpURLConnection**   
     - Data retrieving network communication
-- **Gson**   
+4. **Gson**   
     - Json parsing
-- **Android Paging Library**.  
+5. **Android Paging Library**
     - For large amount of data pagination
-- **Room Persistence Library**   
+6. **Room Persistence Library**   
     - Database for data persistence
-- **ViewModel + LiveData**   
+7. **ViewModel + LiveData**   
     - LifeCycle aware data type 
-- **MVVM Design Pattern**   
+8. **MVVM Design Pattern**   
     - Model-View-ViewModel design pattern
 
 <br><br>
