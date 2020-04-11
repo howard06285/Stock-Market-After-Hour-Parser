@@ -23,8 +23,8 @@ A simple practice for stock market after-hours data retrieving from TWSE  - Andr
 | [Gson](https://github.com/google/gson) | A Java serialization/deserialization library to parse respond JSON data |
 | [Android Paging Library*](https://www.youtube.com/watch?v=QVMqCRs0BNA) | For large amount of data pagination |
 | [Room Persistence Library*](https://www.youtube.com/watch?v=SKWh4ckvFPM) | Database for data persistence |
-| [ViewModel*](https://www.youtube.com/watch?v=5qlIPTDE274&t=37s) | LifeCycle aware data type |
-| [LiveData*](https://www.youtube.com/watch?v=OMcDk2_4LSk)| LifeCycle aware data type |
+| [ViewModel*](https://www.youtube.com/watch?v=5qlIPTDE274&t=37s) | Lifecycle-aware component |
+| [LiveData*](https://www.youtube.com/watch?v=OMcDk2_4LSk)| Lifecycle-aware component |
 | [MVVM Design Pattern*](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel design pattern |
 
 ___* Android Architecture Components - Part of Android Jetpack___
