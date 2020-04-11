@@ -31,8 +31,12 @@ ___* Android Architecture Components - Part of Android Jetpack___
 
 <br>
 <br>
-
+<br>
+[<img src="app/src/main/res/mipmap-xxxhdpi/AfterHoursDemo.gif" width="40%" height="40%" align="center" valign="center">]
+<br>
+<br>
 And the stock market after-hours datasource is here --> https://data.gov.tw/dataset/11549#r0 
+
 
 <br>
 <br>
