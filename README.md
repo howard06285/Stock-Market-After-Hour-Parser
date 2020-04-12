@@ -22,7 +22,7 @@ A simple practice for stock market after-hours data retrieving from [TWSE(OpenDa
 | [Room Persistence Library*](https://developer.android.com/topic/libraries/architecture/room) | Database for data persistence |
 | [ViewModel*](https://developer.android.com/topic/libraries/architecture/viewmodel) | [Lifecycle-aware component](https://developer.android.com/topic/libraries/architecture/lifecycle) |
 | [LiveData*](https://developer.android.com/topic/libraries/architecture/livedata)| [Lifecycle-aware component](https://developer.android.com/topic/libraries/architecture/lifecycle) |
-| [MVVM Design Pattern*](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel design pattern |
+| [MVVM Design Pattern*](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel, Google recommended design pattern |
 
 ___* [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Part of [Android Jetpack](https://developer.android.com/jetpack)___
 
