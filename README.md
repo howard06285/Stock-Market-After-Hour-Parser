@@ -6,11 +6,11 @@
 <br>
 <br>
 
-A simple practice for stock market after-hours data retrieving from [TWSE](https://data.gov.tw/dataset/11549#r0)(OpenData)  - Android Kotlin
+A simple practice for stock market after-hours data retrieving from [TWSE(OpenData)](https://data.gov.tw/dataset/11549#r0) - Android Kotlin
 <br>
 <br>
 
-## This sample showcases the following things - AndroidX:
+## This sample showcases the following things - [AndroidX](https://developer.android.com/jetpack/androidx):
 
 | Implementation | Description |
 | --- | --- |
