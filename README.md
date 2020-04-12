@@ -6,7 +6,7 @@
 <br>
 <br>
 
-A simple practice for stock market after-hours data retrieving from [TWSE](https://data.gov.tw/dataset/11549#r0)  - Android Kotlin
+A simple practice for stock market after-hours data retrieving from [TWSE](https://data.gov.tw/dataset/11549#r0)(OpenData)  - Android Kotlin
 <br>
 <br>
 
