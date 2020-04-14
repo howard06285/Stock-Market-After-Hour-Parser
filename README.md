@@ -6,7 +6,7 @@
 <br>
 <br>
 
-A simple practice for stock market after-hours data retrieving from [TWSE(OpenData)](https://data.gov.tw/dataset/11549#r0) - Android Kotlin
+A simple practice for stock market after-hours data retrieving from [TWSE(OpenData)](https://data.gov.tw/dataset/11549#r0) with [Retrofit 2](https://square.github.io/retrofit/) + [RxJava2](https://github.com/ReactiveX/RxJava) and [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection), and architectured by MVVM design pattern. - Android Kotlin
 <br>
 <br>
 
