@@ -10,7 +10,7 @@ A simple practice for stock market after-hours data retrieving from [TWSE(OpenDa
 <br>
 <br>
 
-## This sample showcases the following things - [AndroidX](https://developer.android.com/jetpack/androidx):
+## This sample showcases the following things:
 
 | Implementation | Description |
 | --- | --- |
@@ -25,6 +25,8 @@ A simple practice for stock market after-hours data retrieving from [TWSE(OpenDa
 | [MVVM Design Pattern*](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel, Google recommended design pattern |
 
 ___* [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Part of [Android Jetpack](https://developer.android.com/jetpack)___
+
+[Use AndroidX library](https://developer.android.com/jetpack/androidx)
 
 <br>
 <br>
