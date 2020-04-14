@@ -26,6 +26,10 @@ A simple practice for stock market after-hours data retrieving from [TWSE(OpenDa
 
 ___* [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Part of [Android Jetpack](https://developer.android.com/jetpack)___
 
+<br>
+<br>
+<br>
+
 [Use AndroidX library](https://developer.android.com/jetpack/androidx)
 
 <br>
