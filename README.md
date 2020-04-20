@@ -10,6 +10,7 @@ A simple practice for stock market after-hours data retrieving from [TWSE(OpenDa
 <br>
 <br>
 
+
 ## This sample showcases the following things:
 
 | Implementation | Description |
@@ -30,7 +31,7 @@ ___* [Android Architecture Components](https://developer.android.com/topic/libra
 <br>
 <br>
 
-[Use AndroidX library](https://developer.android.com/jetpack/androidx)
+This project [use AndroidX library](https://developer.android.com/jetpack/androidx)
 
 <br>
 <br>
