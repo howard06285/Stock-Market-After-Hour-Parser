@@ -31,7 +31,7 @@ ___* [Android Architecture Components](https://developer.android.com/topic/libra
 <br>
 <br>
 
-This project [use AndroidX library](https://developer.android.com/jetpack/androidx)
+This project use [AndroidX library](https://developer.android.com/jetpack/androidx)
 
 <br>
 <br>
