@@ -19,7 +19,7 @@ A simple practice for stock market after-hours data retrieving from [TWSE(OpenDa
 | [Retrofit 2](https://square.github.io/retrofit/) + [RxJava2](https://github.com/ReactiveX/RxJava) | A type-safe HTTP client for Android, network communication for data retrieving |
 | [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection) | Another network communication for data retrieving |
 | [Gson](https://github.com/google/gson) | A Java serialization/deserialization library to parse respond JSON data |
-| [Android Paging Library*](https://developer.android.com/topic/libraries/architecture/paging/) | For large amount of data pagination |
+| [Android Paging Library*](https://developer.android.com/topic/libraries/architecture/paging/) | For large/infinite lists of data pagination |
 | [Room Persistence Library*](https://developer.android.com/topic/libraries/architecture/room) | Database for data persistence |
 | [ViewModel*](https://developer.android.com/topic/libraries/architecture/viewmodel) | [Lifecycle-aware component](https://developer.android.com/topic/libraries/architecture/lifecycle) |
 | [LiveData*](https://developer.android.com/topic/libraries/architecture/livedata)| [Lifecycle-aware component](https://developer.android.com/topic/libraries/architecture/lifecycle) |
