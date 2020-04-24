@@ -6,7 +6,6 @@
 [<img src="app/src/main/res/mipmap-xxxhdpi/googleplay_logo.png" width="20%" height="20%" align="center" valign="center">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
 <br>
 <br>
-
 <br>
 
 [繁體中文說明文件](README_TraditionalCh.md)<br>
