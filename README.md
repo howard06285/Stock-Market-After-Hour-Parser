@@ -1,6 +1,6 @@
 # Stock-Market-After-Hour-Parser <br>
 
-[繁體中文](app/README_TraditionalCh.md)<br>
+[繁體中文說明文件](app/README_TraditionalCh.md)<br>
 <br>
 
 [<img align="center" src ="app/src/main/res/mipmap-xxxhdpi/ic_app_icon.png">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
