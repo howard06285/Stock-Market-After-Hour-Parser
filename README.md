@@ -1,4 +1,10 @@
-# Stock-Market-After-Hour-Parser
+# Stock-Market-After-Hour-Parser 
+
+<br>
+
+[繁體中文版README](app/README_TraditionalCh.md)<br>
+<br>
+
 [<img align="center" src ="app/src/main/res/mipmap-xxxhdpi/ic_app_icon.png">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
 <br>
 
@@ -36,7 +42,7 @@ This project use [AndroidX library](https://developer.android.com/jetpack/androi
 <br>
 <br>
 <br>
-<img src="app/src/main/res/mipmap-xxxhdpi/AfterHoursDemo.gif" width="45%" height="45%" align="center" valign="center">
+<img src="app/src/main/res/mipmap-xxxhdpi/after_hours_demo.gif" width="45%" height="45%" align="center" valign="center">
 <br>
 <br>
 <br>
