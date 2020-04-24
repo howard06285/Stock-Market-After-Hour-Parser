@@ -1,13 +1,15 @@
-# Stock-Market-After-Hour-Parser <br>
-
-[繁體中文說明文件](README_TraditionalCh.md)<br>
-<br>
+# Stock-Market-After-Hour-Parser
 
 [<img align="center" src ="app/src/main/res/mipmap-xxxhdpi/ic_app_icon.png">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
 <br>
 
 [<img src="app/src/main/res/mipmap-xxxhdpi/googleplay_logo.png" width="20%" height="20%" align="center" valign="center">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
 <br>
+<br>
+
+<br>
+
+[繁體中文說明文件](README_TraditionalCh.md)<br>
 <br>
 
 A simple practice for stock market after-hours data retrieving from [TWSE(OpenData)](https://data.gov.tw/dataset/11549#r0) with [[Retrofit 2](https://square.github.io/retrofit/) + [RxJava2](https://github.com/ReactiveX/RxJava)] , [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection), and architectured by MVVM design pattern. - Android Kotlin
