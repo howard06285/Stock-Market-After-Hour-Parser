@@ -11,6 +11,7 @@
 <br>
 
 這個簡易的Demo專案將會透過[臺灣證券交易所(TWSE)](https://data.gov.tw/dataset/11549#r0)公開資訊OpenDataAPI抓取股市的盤後資料。
+
 這個Demo將透過[[Retrofit 2](https://square.github.io/retrofit/) + [RxJava2](https://github.com/ReactiveX/RxJava)]、 
 [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection)兩種網路通信方式從資料來源抓取數據，
 且此專案是使用 MVVM設計模式架構的。(Android Kotlin)
