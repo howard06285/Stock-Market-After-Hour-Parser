@@ -1,7 +1,8 @@
-# 股市盤後公開資訊解析器
-<br>
+# 股市盤後公開資訊解析器<br>
+
 [English_README](README.md)<br>
 <br>
+
 [<img align="center" src ="app/src/main/res/mipmap-xxxhdpi/ic_app_icon.png">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
 <br>
 
