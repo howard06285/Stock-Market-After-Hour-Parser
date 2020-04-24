@@ -107,19 +107,16 @@ class PageViewModel(app: Application) : AndroidViewModel(app) {
 
             //發送網路請求(非同步)
             call.enqueue(object : Callback<JsonArray> {
-
                 // 請求失敗時 --> onFailure()
                 override fun onFailure(call: Call<JsonArray>?, t: Throwable?) {
                     Log.e("retrieve_Retrofit", "連接失敗, t=${t}")
 
                 }
-
                 // 請求成功時 --> onResponse()
                 override fun onResponse(call: Call<JsonArray>?, response: Response<JsonArray>?) {
                     val yourArray: ArrayList<Shares> = Gson().fromJson(response?.body().toString(),
                         object : TypeToken<List<Shares?>?>() {}.type
                     )
-
                     saveAfterHourDataToRoomDb(yourArray)
                 }
             })
