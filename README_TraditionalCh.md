@@ -1,13 +1,13 @@
 # 股市盤後公開資訊解析器<br>
 
-[English_README](README.md)<br>
-<br>
-
 [<img align="center" src ="app/src/main/res/mipmap-xxxhdpi/ic_app_icon.png">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
 <br>
 
 [<img src="app/src/main/res/mipmap-xxxhdpi/googleplay_logo.png" width="20%" height="20%" align="center" valign="center">](https://play.google.com/store/apps/details?id=com.shigaga.stockmarketafterhourparser)<br>
 <br>
+<br>
+
+[English_README](README.md)<br>
 <br>
 
 這個簡易的Demo專案將會透過[臺灣證券交易所(TWSE)](https://data.gov.tw/dataset/11549#r0)公開資訊OpenDataAPI抓取股市的盤後資料。
