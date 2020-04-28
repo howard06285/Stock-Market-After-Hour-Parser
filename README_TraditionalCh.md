@@ -28,7 +28,7 @@
 | [HttpURLConnection](https://developer.android.com/reference/java/net/HttpURLConnection) | 一種相當常見的Http請求，用來做存取資料的網路通信 |
 | [Gson](https://github.com/google/gson) | 由Google公司發布，一個專門用來處理Json解析相關事務的開源工具 |
 | [Android Paging Library*](https://developer.android.com/topic/libraries/architecture/paging/) | Android官方推出專門用來處理無限清單、大量資料清單的分頁功能函式庫 |
-| [Room Persistence Library*](https://developer.android.com/topic/libraries/architecture/room) | 提升資料持久性的Android官方推薦資料庫操作函式庫 |
+| [Room Persistence Library*](https://developer.android.com/topic/libraries/architecture/room) | 提升資料持久性，是Android官方推薦操作資料庫存取動作的函式庫 |
 | [ViewModel*](https://developer.android.com/topic/libraries/architecture/viewmodel) | 一個[具有生命週期感知的元件](https://developer.android.com/topic/libraries/architecture/lifecycle) |
 | [LiveData*](https://developer.android.com/topic/libraries/architecture/livedata)| 一個[具有生命週期感知的元件](https://developer.android.com/topic/libraries/architecture/lifecycle)並可觀察的資料類型 |
 | [MVVM Design Pattern*](https://medium.com/upday-devs/android-architecture-patterns-part-3-model-view-viewmodel-e7eeee76b73b) | Model-View-ViewModel，最新、也是 Google官方推薦的設計模式(架構) |
